@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-flance/static/css/main.6e918b55.css",
+    "main.js": "/my-flance/static/js/main.63751632.js",
+    "static/js/787.27fa39b8.chunk.js": "/my-flance/static/js/787.27fa39b8.chunk.js",
+    "static/media/backgr.png": "/my-flance/static/media/backgr.a983ad72ebcc4756cb67.png",
+    "static/media/logo.png": "/my-flance/static/media/logo.dba331c05b8e22a7a483.png",
+    "static/media/VK.png": "/my-flance/static/media/VK.511aa7c2c02e00826633.png",
+    "index.html": "/my-flance/index.html",
+    "main.6e918b55.css.map": "/my-flance/static/css/main.6e918b55.css.map",
+    "main.63751632.js.map": "/my-flance/static/js/main.63751632.js.map",
+    "787.27fa39b8.chunk.js.map": "/my-flance/static/js/787.27fa39b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e918b55.css",
+    "static/js/main.63751632.js"
+  ]
+}
