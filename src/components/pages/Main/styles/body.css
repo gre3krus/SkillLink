@@ -1,0 +1,260 @@
+main {
+  display: flex;
+  padding: 110px 23% 110px 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/backgr.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.sidebar-container {
+  position: relative;
+
+  transform: translateX(0);
+  transition: 1.5s;
+}
+
+/* #button-sidebar {
+  display: none;
+} */
+
+#arrow {
+  display: none;
+}
+
+#lbl-sidebar {
+  padding: 0;
+}
+
+#button-sidebar:checked + .sidebar-container {
+  transform: translateX(4%);
+}
+
+#button-sidebar {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  appearance: none;
+  background-color: gray;
+  background-repeat: no-repeat;
+  border-radius: 0px 10px 10px 0px;
+  transition: 0.3s ease;
+
+  margin: 0;
+  width: 50px;
+  height: 40px;
+}
+
+#button-sidebar:checked {
+  width: 30px;
+  height: 40px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  min-height: 10vh;
+  border-radius: 31px;
+  background: #fff;
+  box-shadow: -9px 8px 4px 0px rgba(97, 0, 255, 0.8);
+  padding-bottom: 5vh;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.filt {
+  color: black;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+  padding-bottom: 15px;
+}
+
+.title-open {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  color: black;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+.switch {
+  display: flex;
+  padding-top: 19px;
+  padding-left: 20px;
+}
+
+.switcher {
+  position: relative;
+  width: 30px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 20px;
+  appearance: none;
+  transition: 0.3s;
+}
+
+.switcher:checked {
+  background-color: lightgrey;
+}
+
+.switcher::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightgray;
+  transition: 0.3s;
+}
+
+.switcher:checked::before {
+  left: 15px;
+  background-color: #4e01cc;
+}
+
+.salary-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 9px;
+}
+
+.salary {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 0;
+}
+
+#min-salary {
+  margin-bottom: 10px;
+}
+
+#max-salary {
+  margin-bottom: 10px;
+}
+
+.salary-range {
+  position: relative;
+  width: 170px;
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-bottom: 6px;
+  margin-top: 25px;
+  border-radius: 40px;
+  background: #000;
+  box-shadow: 0px 3px 4px 0px #4e01cc;
+
+  color: #fff;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px; /* 39.583% */
+  letter-spacing: -0.96px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+  padding-left: 10px;
+  gap: 45px;
+}
+
+.job1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 800px;
+  background-color: lightgray;
+  border-radius: 31px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 800px;
+  background-color: lightgrey;
+  border-radius: 31px;
+}
+
+.job2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 670px;
+  max-width: 850px;
+  background-color: lightgrey;
+  border-radius: 31px;
+}
+
+h1 {
+  margin-left: 15px;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.username {
+  display: flex;
+  white-space: nowrap;
+  margin: 0 90px;
+}
+
+.photo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.photo {
+  max-height: 62px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.txt {
+  margin-left: 10px;
+}
+
+.url {
+  display: flex;
+}
