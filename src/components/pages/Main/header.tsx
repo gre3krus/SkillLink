@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="logo-container">
-        <a href="/my-flance">
+        <a href="/SkillLink">
           <img src={logo} className="logo" alt="logo" />
         </a>
       </div>

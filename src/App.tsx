@@ -9,7 +9,7 @@ function App() {
       <>
         <BrowserRouter>
           <Routes>
-            <Route path="/skill" element={<Main />} />
+            <Route path="/SkillLink" element={<Main />} />
             <Route path="/login" element={<Login />} />
           </Routes>
         </BrowserRouter>
